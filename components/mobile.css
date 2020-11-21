@@ -1,0 +1,30 @@
+.contato footer {
+  top: 2333px;
+  left: -29.59326171875px;
+  width: 462px;
+  height: 104px;
+  background: #E7E9E6 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.contato header{
+  top: 1856px;
+  left: -47px;
+  width: 2013px;
+  height: 368px;
+  background: #B7AB9D 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+}
+
+.vitrine h1{
+  top: 30px;
+  left: 40px;
+  width: 134px;
+  text-align: center;
+  font: normal normal 900 42px/56px Playfair Display;
+  letter-spacing: 3.15px;
+  color: #E7E9E6;
+  opacity: 1;
+  height: 56px;
+}
