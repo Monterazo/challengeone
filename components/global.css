@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root {
+  --bege: #B7AB9D;
+  --preto: #35363A;
+  --rose: #D6C2B7;
+  --cinza: #E7E9E6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+p{
+  text-align: justify;
+  font-size: 18px;
+  text-indent: 30px;
+  margin-top: 20px;
+}
+
+.menu li {
+  top: 166px;
+  width: 104px;
+  height: 47px;
+  text-align: center;
+  font: normal normal normal 35px/47px Playfair Display;
+  letter-spacing: 0px;
+  color: #B7AB9D;
+  opacity: 1;
+}
+
+h1 {
+  top: 30px;
+  left: 40px;
+  width: 134px;
+  height: 56px;
+  text-align: center;
+  font: normal normal 900 42px/56px Playfair Display;
+  letter-spacing: 3.15px;
+  color: #E7E9E6;
+  opacity: 1;
+}
+
+h2 {
+  text-align: center;
+  font: normal normal bold 40px/53px Playfair Display;
+  letter-spacing: 0px;
+  color: #B7AB9D;
+  opacity: 1;
+}
