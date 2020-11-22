@@ -9,7 +9,7 @@
   <title>Document</title>
 </head>
 <body>
-  <header class="vitrine">
+  <header class="vitrine" id="inicio">
     <div class="envolvimento">
       <input type="checkbox" class="gatilho">
       <div class="sanduiche"><div></div></div>
@@ -17,9 +17,9 @@
         <div>
           <div>
             <ul>
-              <li><a href="https://cyberpunk-77.lucasmonterazo.repl.co/">HOME</a>
-              <li><a href="#midle">PRODUTOS</a>
-              <li><a href="https://www.cyberpunk.net/br/pt-br/pre-order">CONTATO</a></li>
+              <li id="l1"><a href="#inicio">HOME</a>
+              <li id="l2"><a href="#meio">PRODUTOS</a>
+              <li id="l3"><a href="#fim">CONTATO</a></li>
             </ul>
           </div>
         </div>
@@ -32,25 +32,47 @@
     <p>Intensifique o seu brilho</p>
   
   </header>
-  <div class="produtos">
+  <div class="produtos" id="meio">
     <h2>PRODUTOS</h2 >
     <ul>
       <li><img src="assets/images/Grupo_13.png" alt="anel de diamante" id="anel"></li>
         <li><button id="b1">COMPRAR</button></li>
-      <li id="b2"><img src="assets/images/Grupo_3.png" alt="relogio de ouro" id="relogio"></li>
-        <li><button>COMPRAR</button></li>
-      <li><img src="assets/images/Grupo_4.png" alt="colar de esmeralda" id="colar"></li>
-        <li><button id="b3">COMPRAR</button></li>
+        <li><img src="assets/images/Grupo_3.png" alt="relogio de ouro" id="relogio"></li>
+          <li><button id="b2">COMPRAR</button></li>
+      <li id="n3">Colar de esmeralda</li>
+        <li><img src="assets/images/Grupo_4.png" alt="colar de esmeralda" id="colar"></li>
+          <li><button id="b3">COMPRAR</button></li>
     </ul>
+    <p id="n1">Anel de diamante</p>
+    <p id="n2">Relógio de ouro</p>
+    <p id="n3">Colar de esmeralda</p>
   </div>
-  <div class="contato">
+  <div class="contato" id="fim">
     <header>
       <div class="logo">
         <h5>CITi's</h5>
         <h6>BOUTIQUE</h6>
       </div>
+      <div class="informacoes">
+        <table>
+          <thead>
+            <tr>
+              <th id="th"><img src="assets/images/phone.svg" alt="telefone"></th>
+              <th id="eh"><img src="assets/images/email.svg" alt="email"></th>
+              <th id="ih"><img src="assets/images/instagram.svg" alt="insta"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="td">81 3511-1259</td>
+              <td id="ed">contato@ejoias.com</td>
+              <td id="id">@ejoiasboutique</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </header>
-    <footer><p>Made with and by trainee</p></footer>
+    <footer><p>Made with &lt;/&gt; and &lt;3 by trainee</p></footer>
   </div>
 </body>
 </html>

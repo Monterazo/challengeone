@@ -104,14 +104,80 @@
   position: absolute;
 }
 
-.produtos #b3 {
+.produtos button {
+  text-align: center;
+  font: normal normal normal 21px/28px Playfair Display;
+  letter-spacing: 0px;
+  color: #35363A;
+  opacity: 1;
+}
+
+.produtos #b1{
+  left: 106px;
+  width: 167px;
+  height: 52px;
+  background: #D6C2B7 0% 0% no-repeat padding-box;
+  border: 2px solid #B7AB9D;
+  opacity: 1;
+  top: 1125px;
+  position: absolute;
+}
+
+.produtos #b2 {
   left: 104px;
   width: 167px;
   height: 52px;
   background: #D6C2B7 0% 0% no-repeat padding-box;
   border: 2px solid #B7AB9D;
   opacity: 1;
-  top: 1794px;
+  top: 1478px;
+  position: absolute;
+}
+
+.produtos #b3 {
+  top: 1830px;
+  left: 104px;
+  width: 167px;
+height: 52px;
+background: #D6C2B7 0% 0% no-repeat padding-box;
+border: 2px solid #B7AB9D;
+opacity: 1;
+  position: absolute;
+}
+
+.produtos #n1{
+  left: 106px;
+  height: 28px;
+  text-align: center;
+  font: normal normal normal 21px/28px Playfair Display;
+  letter-spacing: 0px;
+  color: #35363A;
+  opacity: 1;
+  top: 874px;
+  position: absolute;
+}
+
+.produtos #n2{
+  left: 114px;
+  height: 28px;
+  text-align: center;
+  font: normal normal normal 21px/28px Playfair Display;
+  letter-spacing: 0px;
+  color: #35363A;
+  opacity: 1;
+  position: absolute;
+  top: 1227px;
+}
+
+.produtos #n3{
+  left: 97px;
+  height: 28px;
+  text-align: center;
+  font: normal normal normal 21px/28px Playfair Display;
+  letter-spacing: 0px;
+  color: #35363A;
+  opacity: 1;
+  top: 1581px;
   position: absolute;
 }
 
@@ -148,7 +214,7 @@
   letter-spacing: 0px;
   color: #35363A;
   opacity: 1;
-  top: 2352px;
+  margin-top: 19.33px;
   position: absolute;
 }
 
@@ -156,7 +222,7 @@
   top: 2333px;
   left: -29.59326171875px;
   width: 375px;
-  height: 42px;
+  height: 62px;
   background: #E7E9E6 0% 0% no-repeat padding-box;
   opacity: 1;
 }
@@ -169,4 +235,69 @@
   background: #B7AB9D 0% 0% no-repeat padding-box;
   border: 1px solid #707070;
   opacity: 1;
+}
+
+.contato #td {
+  top: 2160px;
+left: 101px;
+height: 27px;
+text-align: left;
+font: normal normal normal 20px/27px Playfair Display;
+letter-spacing: 0px;
+color: #35363A;
+opacity: 1;
+position: absolute;
+}
+
+.contato #ed {
+  top: 2199px;
+  left: 101px;
+  width: 180px;
+  height: 27px;
+  text-align: left;
+  font: normal normal normal 20px/27px Playfair Display;
+  letter-spacing: 0px;
+  color: #35363A;
+  opacity: 1;
+  position: absolute;
+}
+
+.contato #id {
+  left: 101px;
+  width: 149px;
+  height: 27px;
+  text-align: left;
+  font: normal normal normal 20px/27px Playfair Display;
+  letter-spacing: 0px;
+  color: #35363A;
+  opacity: 1;
+  position: absolute;
+  top: 2237px;
+}
+
+.contato #th{
+  top: 2168px;
+  left: 60px;
+  width: 18px;
+  height: 18px;
+  opacity: 1;
+  position: absolute;
+}
+
+.contato #eh{
+  top: 2209px;
+  left: 60px;
+  width: 20px;
+  height: 16px;
+  opacity: 1;
+  position: absolute;
+}
+
+.contato #ih{
+  top: 2244px;
+  left: 60px;
+  width: 21px;
+  height: 21px;
+  opacity: 1;
+  position: absolute;
 }

@@ -114,10 +114,10 @@
   justify-content: center;
 }
 
+/* configurações do fundo do menu */
 .envolvimento .menu > div {
   background: var(--preto);
-  border-radius: 50%;
-  width: 200vw;
+  width: 375px;
   height: 200vw;
   display: flex;
   flex: none;
