@@ -160,3 +160,45 @@
   color: #B7AB9D;
   opacity: 1;
 }
+
+/* customização do texto */
+
+.menu #l1 {
+  top: 166px;
+  left: 136px;
+  width: 104px;
+  height: 47px;
+  position: absolute;
+  font: normal normal normal 35px/47px Playfair Display;
+  letter-spacing: 0px;
+  color: #B7AB9D;
+  opacity: 1;
+  position: absolute;
+}
+
+.menu #l2 {
+  top: 253px;
+  left: 102px;
+  width: 184px;
+  height: 47px;
+  position: absolute;
+  font: normal normal normal 35px/47px Playfair Display;
+  letter-spacing: 0px;
+  color: #B7AB9D;
+  opacity: 1;
+  position: absolute;
+}
+
+.menu #l3 {
+  top: 340px;
+  left: 106px;
+  width: 163px;
+  height: 47px;
+  text-align: left;
+  font: normal normal normal 35px/47px Playfair Display;
+  letter-spacing: 0px;
+  color: #B7AB9D;
+  opacity: 1;
+  position: absolute;
+}
+
