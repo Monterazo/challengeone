@@ -37,10 +37,6 @@
   z-index: -1;
 }
 
-.produtos {
-  background: var(--preto);;
-}
-
 .contato header{
   background-color: var(--bege);
 }

@@ -1,3 +1,4 @@
+@media(max-width: 1024px) {
 .envolvimento {
   position: absolute;
   top: 0;
@@ -186,4 +187,15 @@
   color: #B7AB9D;
   opacity: 1;
   position: absolute;
+}
+
+}
+
+/* Configurações desktop do hamburguer */
+@media(min-width: 1024px) {
+  .gatilho {
+    position: fixed;
+    visibility: hidden;
+    overflow: hidden;
+  }
 }
