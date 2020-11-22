@@ -28,3 +28,137 @@
   opacity: 1;
   height: 56px;
 }
+
+.vitrine h3 {
+  left: 43px;
+  width: 126px;
+  height: 21px;
+  text-align: center;
+  font: normal normal normal 16px/21px Playfair Display;
+  letter-spacing: 6.4px;
+  color: #E7E9E6;
+  opacity: 1;
+  top: 81px;
+}
+
+.vitrine p {
+  width: 205px;
+  text-indent: 30px;
+  text-align: right;
+  font: normal normal normal 38px/51px Playfair Display;
+  letter-spacing: 0px;
+  color: #E7E9E6;
+  opacity: 1;
+}
+
+.vitrine .logo {
+  margin-top: 0;
+}
+
+/* CSS dos produtos*/
+.produtos {
+  top: 665px;
+  left: -24px;
+  width: 442px;
+  height: 1292px;
+  background: #35363A 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.produtos h2 {
+  left: 75px;
+  width: 225px;
+  height: 53px;
+  top: 741px;
+  text-align: left;
+  font: normal normal bold 40px/53px Playfair Display;
+  letter-spacing: 0px;
+  color: #B7AB9D;
+  opacity: 1;
+}
+  
+
+.produtos li img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 10%;
+}
+
+#anel {
+  top: 825px;
+  left: 73px;
+  width: 230px;
+  height: 288px;
+  opacity: 1;
+} 
+
+#relogio {
+  top: 1178px;
+  left: 73px;
+  width: 230px;
+  height: 288px;
+  opacity: 1;
+}
+
+#colar {
+  top: 1532px;
+  left: 73px;
+  width: 230px;
+  height: 288px;
+  opacity: 1;
+}
+
+.produtos button {
+  left: 104px;
+  width: 167px;
+  height: 52px;
+  background: #D6C2B7 0% 0% no-repeat padding-box;
+  border: 2px solid #B7AB9D;
+  opacity: 1;
+  top: 1794px;
+  font: normal normal normal 21px/28px Playfair Display;
+  letter-spacing: 0px;
+  color: #35363A;
+  opacity: 1;
+  text-align: center;
+  margin-top: -6%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CSS do contato */
+.contato h5 {
+  width: 220px;
+  height: 92px;
+  text-align: center;
+  font: normal normal 900 69px/92px Playfair Display;
+  letter-spacing: 5.17px;
+  color: #35363A;
+  opacity: 1;
+}
+
+.contato h6 {
+  left: 80px;
+  width: 218px;
+  height: 37px;
+  text-align: center;
+  font: normal normal normal 28px/37px Playfair Display;
+  letter-spacing: 11.2px;
+  color: #35363A;
+  opacity: 1;
+  top: 2063px;
+}
+
+.contato p {
+  top: 2352px;
+  left: 43px;
+  width: 290px;
+  height: 27px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #35363A;
+  opacity: 1;
+}
