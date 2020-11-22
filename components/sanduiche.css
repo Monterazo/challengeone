@@ -1,5 +1,5 @@
 .envolvimento {
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
   z-index: 1;
@@ -83,7 +83,6 @@
   right:0;
   visibility: hidden;
   display: flex;
-  align: center;
   justify-content: center;
 }
 
@@ -94,7 +93,7 @@
 
 .envolvimento .gatilho:checked ~ .menu > div {
   transform: scale(1);
-  transition-duration: var(--menu-speed);
+  transition-duration: 0.5s;
 }
 
 .envolvimento .gatilho:checked ~ .menu > div > div {
@@ -126,6 +125,7 @@
   justify-content: center;
   transform: scale(0);
   transition: all 0.4s ease;
+
 }
 
 .envolvimento .menu > div > div {

@@ -7,6 +7,7 @@
   --cinza: #E7E9E6;
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -23,16 +24,7 @@
 .vitrine {
   height: 100vh;
   position: relative;
-  background-image: url('https://github.com/Monterazo/challengeone/blob/main/assets/images/Grupo_15.png');
-}
-
-.vitrine .vitrine-interior {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 100%;
+  background-image: url('Grupo_15.png');
 }
 
 .produtos {
