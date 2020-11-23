@@ -118,7 +118,7 @@
 /* configurações do fundo do menu */
 .envolvimento .menu > div {
   background: var(--preto);
-  width: 375px;
+  width: 100vw;
   height: 200vw;
   display: flex;
   flex: none;
@@ -153,49 +153,24 @@
 
 /* customização do texto */
 
-.menu #l1 {
-  top: 166px;
-  left: 136px;
-  height: 47px;
-  position: absolute;
+.menu li {
+  text-align: center;
   font: normal normal normal 35px/47px Playfair Display;
   letter-spacing: 0px;
   color: #B7AB9D;
   opacity: 1;
-  position: absolute;
 }
 
-.menu #l2 {
-  top: 253px;
-  left: 102px;
-  height: 47px;
-  position: absolute;
-  font: normal normal normal 35px/47px Playfair Display;
-  letter-spacing: 0px;
-  color: #B7AB9D;
-  opacity: 1;
-  position: absolute;
-}
-
-.menu #l3 {
-  top: 340px;
-  left: 106px;
-  height: 47px;
-  text-align: left;
-  font: normal normal normal 35px/47px Playfair Display;
-  letter-spacing: 0px;
-  color: #B7AB9D;
-  opacity: 1;
-  position: absolute;
-}
 
 }
 
-/* Configurações desktop do hamburguer */
 @media(min-width: 1024px) {
   .gatilho {
     position: fixed;
+    top: 0;
+    right:0;
     visibility: hidden;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
   }
 }

@@ -4,6 +4,9 @@
   height: 661.5px;
 }
 
+body {
+  background-color: #E7E9E6 ;
+}
 .vitrine h1{
   top: 30px;
   left: 40px;
@@ -30,7 +33,7 @@
 
 .vitrine p {
   top: 497px;
-  left: 37%;
+  right: 8%;
   width: 205px;
   height: 102px;
   text-align: right;
@@ -51,135 +54,61 @@
 .produtos {
   margin-top: -10px;
   width: auto;
-  height: 1292px;
+  height: 1300px;
   background: #35363A 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
 .produtos h2 {
-  top: 741px;
-  left: 75px;
-  width: 225px;
-  height: 53px;
-  text-align: left;
+  margin-top: 10%;
+  text-align: center;
   font: normal normal bold 40px/53px Playfair Display;
   letter-spacing: 0px;
   color: #B7AB9D;
   opacity: 1;
-  position: absolute;
 }
 
-  
-
-.produtos li img{
+.produtos li{
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: 10%;
+  justify-content: center;
+  align-items: center;
 }
 
-#anel {
-  left: 73px;
-  width: 230px;
-  height: 288px;
-  opacity: 1;
-  top: 825px;
-  position: absolute;
-} 
-
-#relogio {
-  left: 73px;
-  width: 230px;
-  height: 288px;
-  opacity: 1;
-  top: 1178px;
-  position: absolute;
-}
-
-#colar {
-  left: 73px;
-  width: 230px;
-  height: 288px;
-  top: 1532px;
-  position: absolute;
+.produtos li div{
+  margin-top: 8%;
 }
 
 .produtos button {
-  text-align: center;
+  display: flex;
   font: normal normal normal 21px/28px Playfair Display;
-  letter-spacing: 0px;
   color: #35363A;
-  opacity: 1;
-}
-
-.produtos #b1{
-  left: 106px;
+  margin-left: auto;
+  margin-right: auto;
   width: 167px;
   height: 52px;
   background: #D6C2B7 0% 0% no-repeat padding-box;
   border: 2px solid #B7AB9D;
-  opacity: 1;
-  top: 1125px;
-  position: absolute;
+  margin-top: -36px;
+  z-index: 2;
+  position: relative;
 }
 
-.produtos #b2 {
-  left: 104px;
-  width: 167px;
-  height: 52px;
-  background: #D6C2B7 0% 0% no-repeat padding-box;
-  border: 2px solid #B7AB9D;
-  opacity: 1;
-  top: 1478px;
-  position: absolute;
+.produtos img{
+  width: 230px;
+  height: 288px;
+  z-index: 1;
+  position: relative;
 }
 
-.produtos #b3 {
-  top: 1830px;
-  left: 104px;
-  width: 167px;
-height: 52px;
-background: #D6C2B7 0% 0% no-repeat padding-box;
-border: 2px solid #B7AB9D;
-opacity: 1;
-  position: absolute;
-}
-
-.produtos #n1{
-  left: 106px;
-  height: 28px;
-  text-align: center;
+.produtos li p {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
   font: normal normal normal 21px/28px Playfair Display;
   letter-spacing: 0px;
   color: #35363A;
   opacity: 1;
-  top: 874px;
-  position: absolute;
-}
-
-.produtos #n2{
-  left: 114px;
-  height: 28px;
-  text-align: center;
-  font: normal normal normal 21px/28px Playfair Display;
-  letter-spacing: 0px;
-  color: #35363A;
-  opacity: 1;
-  position: absolute;
-  top: 1227px;
-}
-
-.produtos #n3{
-  left: 97px;
-  height: 28px;
-  text-align: center;
-  font: normal normal normal 21px/28px Playfair Display;
-  letter-spacing: 0px;
-  color: #35363A;
-  opacity: 1;
-  top: 1581px;
-  position: absolute;
+  margin-bottom: -32px;
 }
 
 /* CSS do contato */
@@ -208,24 +137,24 @@ opacity: 1;
   margin-right: auto;
 }
 
+button{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .contato p {
-  left: 43px;
-  width: 290px;
-  height: 27px;
   text-align: center;
   letter-spacing: 0px;
   color: #35363A;
   opacity: 1;
   margin-top: 19.33px;
-  position: absolute;
 }
 
 .contato footer {
-  top: 2333px;
-  left: -29.59326171875px;
   width: auto;
   height: 62px;
-  background: #E7E9E6 0% 0% no-repeat padding-box;
+  background: #E7E9E6;
   opacity: 1;
 }
 

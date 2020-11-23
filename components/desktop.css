@@ -1,82 +1,231 @@
 @media(min-width: 1024px) {
-  
-  .vitrine .logo {
-    margin-top: 6.944%;
-    margin-left: 8.333%;
-    position: absolute;
-    margin-left: 40px;
-  }
-
+  /* Inicio */
   h1 {
     width: 320px;
     height: 133px;
     text-align: center;
-    font: normal normal 900 100px/133px Playfair Display;
+    font: normal normal Playfair Display;
     letter-spacing: 7.5px;
     color: #E7E9E6;
     opacity: 1;
-    
+    font-size: 100px;
   }
+    h3 {
+      text-align: center;
+      font: normal normal normal 40px/53px Playfair Display;
+      letter-spacing: 16px;
+      color: #E7E9E6;
+      opacity: 1;
+    }
+
+
+.vitrine .logo {
+  margin-top: -50px;
+  position: absolute;
+  margin-left: 8%;
+
+}
+
+button{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vitrine p {
+
+  width: 540px;
+  height: 266px;
+  text-align: right;
+  font: normal normal normal Playfair Display;
+  font-size: 100px;
+  color: #E7E9E6;
+  opacity: 1;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 25%;
+  position: absolute;
+}
+
+/* navbar */
+.envolvimento {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   
-  h3 {
-    width: 312px;
-    height: 53px;
-    text-align: center;
-    font: normal normal normal 40px/53px Playfair Display;
-    letter-spacing: 16px;
-    color: #E7E9E6;
-    opacity: 1;
-  }
+}
 
-  .vitrine p {
-    margin-top: 43.703%;
-    width: 540px;
-    height: 266px;
-    text-align: right;
-    font: normal normal normal 100px/133px Playfair Display;
-    letter-spacing: 0px;
-    color: #E7E9E6;
-    opacity: 1;
-    position: absolute;
-  }
+.menu li {
+  margin-top: 104px;
 
-  .produtos {
-    background-color: var(--preto);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
+  letter-spacing: 0px;
+  opacity: 1;
+  float: left;
+  margin-left: 80px;
+}
 
-  h2{
-    width: 449px;
-    height: 107px;
-    text-align: center;
-    font: normal normal bold 80px/107px Playfair Display;
-    letter-spacing: 0px;
-    color: #B7AB9D;
-    opacity: 1;
-  }
+a {
+  letter-spacing: 0px;
+  font: normal normal normal 35px/47px Playfair Display;
+color: #E7E9E6;
+opacity: 1
 
-  .produtos li{
-    float: left;
-  }
+}
 
-  img {
-    width: 437px;
-    height: 547px;
-  }
+/* CSS dos produtos*/
+.produtos {
+  margin-top: -10px;
+  width: auto;
+  height: 100vh;
+  background: #35363A 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
 
-  button {
-    width: 318px;
-    height: 98px;
-    background: #D6C2B7 0% 0% no-repeat padding-box;
-    border: 2px solid #B7AB9D;
-    opacity: 1;
-  }
+.produtos h2 {
+  text-align: center;
+  font: normal normal bold Playfair Display;
+  font-size: 80px;
+  letter-spacing: 0px;
+  color: #B7AB9D;
+  opacity: 1;
+  margin-top: 50px;
+}
 
+.produtos ul{
+  display: flex;
+  margin-top: 5%;
+}
 
+.produtos li{
+  justify-content: center;
+  align-items: center;
+  display: inline;
+}
 
+.produtos button {
+  display: flex;
+  font: normal normal normal 21px/28px Playfair Display;
+  color: #35363A;
+  margin-left: auto;
+  margin-right: auto;
+  width: 167px;
+  height: 52px;
+  background: #D6C2B7 0% 0% no-repeat padding-box;
+  border: 2px solid #B7AB9D;
+  margin-top: -36px;
+  z-index: 2;
+  position: relative;
+}
 
+.imagem {
+  position: relative;
+  margin-left: 13.5vh;
+}
 
+.produtos img{
+  width: 400px;
+  height: 500px;
+  z-index: 1;
+  position: relative;
+  
+}
+
+.produtos li p {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  font: normal normal normal 21px/28px Playfair Display;
+  letter-spacing: 0px;
+  color: #35363A;
+  opacity: 1;
+  margin-bottom: -32px;
+}
+
+/* contato */
+
+.contato header{
+  height: 25vh;
+}
+
+.contato footer{
+  height: 9vh;
+}
+.contato .logo {
+  margin-top: 4vh;
+  display: block;
+  margin-left: 6%;
+  position: absolute;
+
+}
+
+.contato h5 {
+  text-align: center;
+  font: normal normal 900 69px/92px Playfair Display;
+  letter-spacing: 5.17px;
+  color: #35363A;
+  opacity: 1;
+}
+
+.contato h6 {
+  text-align: center;
+  font: normal normal normal 28px/37px Playfair Display;
+  letter-spacing: 11.2px;
+  color: #35363A;
+  opacity: 1;
+  top: 2063px;
+}
+
+table th{
+  margin-left: 70%;
+  margin-top: 10px;
+  position: absolute;
+  float: righ;
+  font: normal normal normal 35px/47px Playfair Display;
+  letter-spacing: 0px;
+  color: #35363A;
+  opacity: 1;
+  font-size: 40px;
+}
+
+#ih {
+  margin-top: 130px;
+}
+
+#th {margin-top: 10px;
+}
+
+#eh {
+  margin-top: 70px;
+}
+
+table td{
+  margin-left: 75%;
+  margin-top: 10px;
+  position: absolute;
+  float: righ;
+}
+
+#id{
+  margin-top: 140px;
+}
+
+#ed{
+  margin-top: 80px;
+}
+
+#td {
+  margin-top: 20px;
+}
+
+.contato p {
+  margin-top: 15px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #35363A;
+  opacity: 1;
+  margin-left: 60%;
+  position: absolute;
+  font-size: 35px;
+}
 
 }
